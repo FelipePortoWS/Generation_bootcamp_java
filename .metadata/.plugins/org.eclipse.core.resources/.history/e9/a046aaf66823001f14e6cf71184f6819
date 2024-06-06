@@ -1,0 +1,19 @@
+package atv_9_2_6;
+import java.util.Scanner;
+
+public class atv_9_2_6 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+
+		System.out.println("Código do cargo    Cargo");
+		System.out.println("\t1          Gerente");
+		System.out.println("\t2          Vendedor");
+		System.out.println("\t3          Supervisor");
+		System.out.println("\t4          Motorista");
+		System.out.println("\t5          Estoquista");
+		System.out.println("\t6          Técnico de TI");
+		
+	}
+
+}

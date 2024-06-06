@@ -1,0 +1,13 @@
+package atv_9_2_7;
+import java.util.Scanner;
+
+public class atv_9_2_7 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		
+		
+	}
+
+}

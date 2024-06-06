@@ -1,0 +1,12 @@
+package atv_8_6_3;
+import java.util.Scanner;
+
+public class atv_8_6_3 {
+
+	public static void main(String[] args) {
+		float salarioBruto, adicionalNoturno, horaExtra, desconto;
+		Scanner ler = new Scanner(System.in);
+
+	}
+
+}

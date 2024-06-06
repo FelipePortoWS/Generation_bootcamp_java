@@ -1,0 +1,27 @@
+package atv_8_6_2;
+
+import java.util.Scanner;
+
+public class atv_8_6_2 {
+
+	public static void main(String[] args) {
+		float n1, n2, n3, n4, media;
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Digite sua primeira nota:\n");
+		n1 = ler.nextFloat();
+		System.out.println("Digite sua segunda nota:\n");
+		n2 = ler.nextFloat();
+		System.out.println("Digite sua terceira nota:\n");
+		n3 = ler.nextFloat();
+		System.out.println("Digite sua quarta nota:\n");
+		n4 = ler.nextFloat();
+		
+		media = (n1+n2+n3+n4)/4;
+		String resultado = String.format("%.1f", media);
+		
+		System.out.println("Média final: " + resultado);
+		
+	}
+
+}

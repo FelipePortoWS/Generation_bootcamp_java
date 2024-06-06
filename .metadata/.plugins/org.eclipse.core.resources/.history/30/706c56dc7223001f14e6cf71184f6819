@@ -1,0 +1,31 @@
+package atv_9_2_8;
+import java.util.Scanner;
+
+public class atv_9_2_8 {
+
+	public static float Alterar(float saldoAtual, float novoSaldo) {
+		
+		System.out.println("Código da Operação \t Operação");
+		System.out.println(" \t 1 \t\t  Saldo");
+		System.out.println(" \t 2 \t\t  Saque");
+		System.out.println(" \t 3 \t\t  Depósito");
+		
+		return (float) 5.7;
+	}
+	
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		float saldo;
+		String encerrar;
+		
+		System.out.println("Você deseja realizar uma operação? (Digite sim/não)");
+		encerrar = ler.nextLine();
+		if(encerrar == "sim") {
+			
+		}
+		
+		Alterar(3,5);
+		
+	}
+
+}

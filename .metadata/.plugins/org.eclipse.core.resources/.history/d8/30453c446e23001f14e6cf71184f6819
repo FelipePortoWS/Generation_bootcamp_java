@@ -1,0 +1,47 @@
+package atv_9_2_7;
+import java.util.Scanner;
+
+public class atv_9_2_7 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		float n1, n2, total;
+		int operacao;
+		
+		
+		System.out.println("Digite o primeiro número: ");
+		n1 = ler.nextFloat();
+		System.out.println("Digite o segundo número: \n");
+		n2 = ler.nextFloat();
+	
+		System.out.println("Código\t   Operação");
+		System.out.println("   1 \t     Soma");
+		System.out.println("   2 \t     Subtração");
+		System.out.println("   3 \t     Multiplicação");
+		System.out.println("   4 \t     Divisão");
+		
+		System.out.println("Escolha uma operação: ");
+		operacao = ler.nextInt();
+		
+		switch(operacao) {
+		case 1:
+			total = n1 + n2;
+			System.out.println(n1+" + "+n2+" = "+total);
+			break;
+		case 2:
+			total = n1 - n2;
+			System.out.println(n1+" - "+n2+" = "+total);
+			break;
+		case 3:
+			total = n1 * n2;
+			System.out.println(n1+" x "+n2+" = "+total);
+			break;
+		case 4:
+			total = n1 / n2;
+			System.out.println(n1+" / "+n2+" = "+total);
+			break;
+		default:
+			System.out.println("Operação inválida!");
+		}
+	}
+}

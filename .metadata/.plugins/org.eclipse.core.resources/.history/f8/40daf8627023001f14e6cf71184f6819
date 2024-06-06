@@ -1,0 +1,17 @@
+package atv_9_2_8;
+
+public class atv_9_2_8 {
+
+	public static void Alterar(float saldoAtual, float novoSaldo) {
+		
+		System.out.println("Código da Operação \t Operação");
+		System.out.println(" \t 1 \t Saldo");
+		System.out.println(" \t 2 \t Saque");
+		System.out.println(" \t 3 \t Depósito");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
